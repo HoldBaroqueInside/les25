@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mijn Pagina</title>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js">
+        </script>
+        <script type="text/JavaScript">
+            $(document).ready(function() {
+            $("#hide").click(function() {
+            $("p").hide();
+            });
+            $("#show").click(function(){
+            $("p").show();
+            });
+            });
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <button id="hide">Verberg tekst</button>
+        <button id="show">Toon Tekst</button>
+        <p>Klik op de knoppen en zie wat er gebeurt!</p>
+        <noscript>
+            Activeer JavaScript om de website te gebruiken.
+        </noscript>
+    </body>
+</html>
